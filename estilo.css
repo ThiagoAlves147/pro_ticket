@@ -1,0 +1,468 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.bodyL {
+    background-color: #131c21;
+}
+
+.body3 {
+    background-color: rgb(236, 232, 232);
+}
+
+.tabela3 {
+    overflow:auto;
+}
+
+/*=========================================================================================*/
+
+
+/*=========================================================================================*/
+
+/*-------------------------------------VER TICKET----------------------------------------*/
+
+.verTicket {
+    text-decoration: none;
+    color: black;
+}
+
+.verTicket:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.msg {
+    word-break:break-all;
+    border: gray solid 1px;
+    margin: 10px 30px 10px 30px;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#infoP {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: block;
+    border-top: 1px grey solid;
+    border-bottom: 1px grey solid;
+    font-weight: bold;
+}
+
+.infoP {
+    text-align: justify;
+    border-bottom: 1px grey solid;
+    padding-bottom: 6px;
+}
+
+#resposta {
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+
+.dassunto {
+    margin: 0px 0px 30px 0px;
+}
+
+.divr {
+    margin-left: 30px;
+}
+
+.r {
+    background-color: rgb(248, 246, 246);
+    border: 1.5px solid gray;
+    width: auto;
+    margin-right: 5px;
+}
+
+#rEnviar {
+    background-color: #20a567;
+    border: 1.5px solid black;
+    color: black;
+    font-weight: bold;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#finalizar {
+    width: 95%;
+    margin-left: 4px;
+    font-weight: bold;
+}
+
+#arrowMsg {
+    color: white;
+    position: absolute;
+    top: 556px;
+    left: 10px;
+}
+
+.dMsg {
+    display:flex;
+    justify-content: space-between;
+}
+
+.pMsg {
+    color: black;
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+}
+
+.sMsg {
+    color: grey;
+    flex: end;
+}
+
+.alert {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-------------------------------------VER TICKET----------------------------------------*/
+
+/*=========================================================================================*/
+
+/*-------------------------------------VER USUARIO----------------------------------------*/
+
+.container3 .fa-trash-alt {
+    color: red;
+}
+
+.container3 .fa-trash-alt:hover {
+    font-weight: bold;
+}
+
+.container3 .fa-edit{
+    color: #0d6efd;
+}
+
+.container3 .fa-edit:hover {
+    font-weight: bold;
+}
+
+/*-------------------------------------VER USUARIO----------------------------------------*/
+
+html, .body3 {
+    height: 100%;
+}
+
+
+.containerL {
+    display: flexbox;
+    font-size: 32px;
+    background-color: white;
+    margin-right: 33%;
+    margin-left: 33%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    border-radius: 10px;
+    height: 280px;
+}
+
+#containerC {
+    margin-top: 7%;
+    height: auto;
+    column-gap: 20px;
+}
+/*--------------------------------------TELA ADMIN-----------------------------------------*/
+.container3 {
+    display: grid;
+    height: 100%;
+    grid-template-areas: 
+        "menu header3"
+        "menu tabela3"
+    ;
+    grid-template-columns: 17% auto;
+    grid-template-rows: 8.2%;
+}
+
+.container3 .menu {
+    grid-area: menu;
+    background-color: #131c21;
+    text-align: justify;
+}
+
+.container3 .header3 {
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.container3 .logo {
+    margin-top: -10px;
+}
+
+.container3 .tabela3 {
+    box-shadow: 1px 1px 2px 1px rgb(143, 138, 138);
+    background-color: white;
+    margin: 15px;
+}
+
+.container3 .h3Tela {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.container3 .menuF {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-top: 0.3px grey solid;
+    border-bottom: 0.7px grey solid;
+    padding-top: 2.6%;
+    padding-bottom: 2.6%;
+    padding-left: 16%;
+}
+
+.container3 .menuF:hover{
+    background-color: rgb(173, 172, 172);
+}
+
+.container3 #dropdownMenuButton1 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: none;
+    padding-left: 16%;
+    width: 100%;
+    background-color: #131c21;
+    border: none;
+}
+
+.container3 #dropdownMenuButton1:focus {
+    outline: 0;
+    box-shadow: none;
+}
+
+.container3 .dropdown-toggle::after {
+    display: inline-block;
+    margin-left: .255em;
+    margin-top: 10px;
+    vertical-align: .255em;
+    content: "";
+}
+
+.container3 #dropdownMenuButton1:hover {
+    background-color: rgb(173, 172, 172);
+}
+
+.container3 .dropdown-menu {
+    background-color: #131c21;
+}
+
+.container3 .table-striped {
+    table-layout: fixed;
+    word-break:keep-all;
+    text-align: center;
+}
+
+.container3 .table-striped #cod {
+    width: 9%;
+}
+
+.container3 .abrir {
+    display: block;
+    color: white;
+    background-color: #198754;
+    padding-top: 7px;
+    padding-left: 33px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+    margin-right: 4px;
+    margin-left: 3px;
+    text-align:justify;
+    text-decoration: none;  
+}
+
+.container3 .abrir:hover {
+    background-color: #2a9965;
+}
+
+.container3 #pesquisar {
+    padding-left: 35px;
+}
+
+.container3 #procurar {
+    background-color: white;
+}
+
+.fa-search {
+    position: absolute;
+    color: rgb(73, 71, 71);
+    top: 20px;
+    left: 19px;
+    z-index: 1;
+}
+
+.container3 .fa-plus-circle {
+    position: absolute;
+    top: 141px;
+    left: 7px;
+    color: white;
+}
+
+.container3 .fa-users {
+    color: white;
+    position: absolute;
+    top: 226px;
+    left: 6px;
+}
+
+.container3 .fa-user-lock {
+    color: white;
+    position: absolute;
+    top: 262px;
+    left: 6px;
+}
+
+.container3 .fa-envelope-open {
+    color: white;
+    position: absolute;
+    top: 299px;
+    left: 6px;
+    z-index: 1;
+}
+
+.container3 .fa-phone {
+    color: white;
+    position: absolute;
+    top: 336px;
+    left: 6px;
+}
+
+.container3 .fa-question-circle {
+    color: white;
+    position: absolute;
+    top: 373px;
+    left: 6px;
+}
+
+/*--------------------------------------TELA ADMIN-----------------------------------------*/
+
+/*=========================================================================================*/
+
+/*------------------------------------TELA ATENDENTE---------------------------------------*/
+
+#atendente .fa-plus-circle {
+    top: 191px;
+}
+
+#atendente .fa-envelope-open {
+    top: 275px;
+}
+
+#atendente .fa-phone {
+    top: 312px;
+}
+
+#atendente .fa-question-circle {
+    top: 348px;
+}
+
+/*------------------------------------TELA ATENDENTE---------------------------------------*/
+
+/*=========================================================================================*/
+
+/*-------------------------------------TELA CLIENTE----------------------------------------*/
+
+#cliente #abrirCliente {
+    width: 20%;
+    height: 80%;
+    margin-top: 0.5%;
+}
+
+#cliente .fa-plus-circle {
+    position: absolute;
+    top: 17px;
+    left: 225px;
+}
+
+#cliente .fa-envelope-open {
+    top: 188px;
+}
+
+#cliente .fa-phone {
+    top: 224px;
+}
+
+#cliente .fa-question-circle {
+    top: 261px;
+}
+
+/*-------------------------------------TELA CLIENTE----------------------------------------*/
+
+p {
+    text-align: center;
+    color: white;
+}
+
+textarea {
+    resize: none;
+    height: 150px;
+}
+
+.containerL label {
+    display: block;
+    margin-top: 10px;
+}
+
+.containerL .inputL {
+    border: none;
+    font-size: 16px;
+    width: 65%;
+    border-bottom: 1.5px solid black;
+    outline: none;
+}
+
+.containerL .inputL:focus {
+    border-bottom: 2px solid black;
+}
+
+.containerL .botao {
+    margin-top: 6%;
+    padding: 1%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgb(165, 172, 172);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.containerL .botao:hover {
+    opacity: 0.8;
+}
+
+.containerL small {
+    display: block;
+    margin-top: 6%;
+    font-size: 14px;
+}
+
+.containerL .cadastro {
+    color: blue;
+    text-decoration: none;
+}
+
+.containerL .cadastro:hover {
+    text-decoration: underline;
+}
+
+#linkB {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    width: 35px;
+    margin-left: 1.5%;
+    text-decoration: none;
+}
+#linkB .fa-arrow-left {
+    color: black;
+}
+
+#linkB .fa-arrow-left:hover {
+    color: rgb(30, 30, 126);
+}
