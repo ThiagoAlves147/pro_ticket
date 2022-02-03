@@ -25,6 +25,7 @@ PróTicket é um sistema de tickets web feito com a intecão de aprimorar meus a
 - PHP
 - MYSQL
 ## Front end
+- BOOTSTRAP
 - HTML
 - CSS
 - JS
